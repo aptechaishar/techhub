@@ -1,0 +1,186 @@
+
+header{
+    background-image: url("assets/hero.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.text{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.custom-shape-divider-top-1789309879 svg {
+    position: relative;
+    display: block;
+    width: calc(99.9% + 1.3px);
+    height: 60px;
+    margin-top: 60px;
+}
+
+.custom-shape-divider-top-1789309879 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.card-text{
+    height: 100px;
+}
+
+video{
+    margin-left: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+.cta img{
+    margin-top: 64px;
+}
+.cta h2{
+    margin-top: 30%;
+}
+.cta p{
+    color: grey;
+}
+
+.services{
+    margin-top: 128px;
+    margin-bottom: 64px
+}
+.services img{
+   margin: auto;
+}
+
+.services h2{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.carousel{
+    display: flex;
+    gap: 16px;
+}
+
+.carousel-control-prev-icon{
+    margin-right: 120px;
+}
+
+.carousel{
+    height: 120vh;
+}
+
+
+i{
+    color: blueviolet;
+    display: flex;
+    justify-items: center;
+
+}
+
+.custom-shape-divider-bottom-1789396462 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: 64px;
+}
+
+.custom-shape-divider-bottom-1789396462 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-bottom-1789396462 .shape-fill {
+    fill: #000000;
+
+}
+
+
+.contactimg{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.img1 p{
+    display: inline;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 32px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+list-style-type: none;
+
+}
+
+footer input{
+    padding: 8px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+@media (max-width: 1000px){
+    header{
+        height: 140vh;
+        .custom-shape-divider-top-1789309879 svg {
+              
+                display: none;
+            }
+
+            video{
+                width: 200px;
+            }
+
+            .card img{
+                width: 50px;
+            }
+
+        
+    }
+}
+
+@media (max-width: 700px) {
+
+    header{
+    video{
+        width: 150px;;
+    }
+
+    .card{
+        width: 50px;
+    }
+
+  
+}
+
+  h2 {
+      font-size: 20px;
+  }
+}
